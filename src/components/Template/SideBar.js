@@ -9,24 +9,22 @@ const SideBar = () => (
   <section id="sidebar">
     <section id="intro">
       <Link to="/" className="logo">
-        <img src={`${PUBLIC_URL}/images/me.jpg`} alt="" />
+        <img src={`${PUBLIC_URL}/images/logo.jpg`} alt="" />
       </Link>
       <header>
-        <h2>Michael D&apos;Angelo</h2>
-        <p><a href="mailto:michael.l.dangelo@gmail.com">michael.l.dangelo@gmail.com</a></p>
+        <h2>SADID Machine Learning for social good</h2>
+        <p><a href="mailto:pcuriositylab@um6p.ma">pcuriositylab@um6p.ma</a></p>
       </header>
     </section>
 
     <section className="blurb">
-      <h2>About</h2>
-      <p>Hi, I&apos;m Michael. I like building things.
-        I am a <a href="https://icme.stanford.edu/">Stanford ICME</a> graduate, YC Alumni, and
-        the co-founder and CTO of <a href="https://arthena.com">Arthena</a>. Before Arthena I was
-        at <a href="https://matroid.com">Matroid</a>
-        , <a href="https://planet.com">Planet</a>
-        , <a href="https://planetaryresources.com">Planetary Resources</a>
-        , <a href="https://facebook.com">Facebook</a>
-        , and <a href="https://seds.org">SEDS</a>.
+      <h2>What, How ?</h2>
+      <p>SADID or Social Analytics via Data for Inclusive Development,
+        it is an initiative launched by <a href="https://pcl.um6p.ma/">P-Curiosity Lab</a> to tackle scoial and economic challenges.
+        We leverage machine learning algorithms to aid policy makers in taking evidence-based
+        decisions on Unemployment,
+        deforestation, low enrolment rate,transport and all the social problems
+        that have negative consequences for large numbers of people.
       </p>
       <ul className="actions">
         <li>
@@ -37,7 +35,7 @@ const SideBar = () => (
 
     <section id="footer">
       <ContactIcons />
-      <p className="copyright">&copy; Michael D&apos;Angelo <Link to="/">mldangelo.com</Link>.</p>
+      <p className="copyright">&copy; SADID-AI <Link to="/">github.com/SADID-ai/webapp</Link>.</p>
     </section>
   </section>
 );

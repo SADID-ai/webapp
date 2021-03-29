@@ -5,27 +5,29 @@ import Main from '../layouts/Main';
 
 const Index = () => (
   <Main
-    description={"Michael D'Angelo's personal website. New York based Stanford ICME graduate, "
-    + 'co-founder and CTO of Arthena, and YC Alumni.'}
+    description={'Sadid-AI website. Hands-on machine learning apllications for social good, '
+    + 'By P-CURIOSITY LAB, Mohammed VI Polytechnic University'}
   >
     <article className="post" id="index">
       <header>
         <div className="title">
-          <h2 data-testid="heading"><Link to="/">About this site</Link></h2>
+          <h2 data-testid="heading"><Link to="/">SADID a cocktail of machine leraning and human centric design</Link></h2>
           <p>
-            A beautiful, responsive, statically-generated,
-            react application written with modern Javascript.
+            bridge between stakeholders, data holders and data
+            scientists to design solutions for the well-being
+            of rural population and drive social and economic development via data
+            and machine learning.
           </p>
         </div>
       </header>
-      <p> Welcome to my website. Please feel free to read more <Link to="/about">about me</Link>,
-        or you can check out my {' '}
-        <Link to="/resume">resume</Link>, {' '}
-        <Link to="/projects">projects</Link>, {' '}
-        view <Link to="/stats">site statistics</Link>, {' '}
-        or <Link to="/contact">contact</Link> me.
+      <p> Welcome to SADID machine learning use cases for economic and social development. Please feel free to read more <Link to="/about">about SADID</Link>,
+        or you can check also our {' '}
+        <Link to="/resume">Ecosystem</Link>, {' '}
+        <Link to="/projects">Projects</Link>, {' '}
+        view <Link to="/stats">Sadid-ai statistics</Link>, {' '}
+        or <Link to="/contact">Contact</Link> us.
       </p>
-      <p> Source available <a href="https://github.com/mldangelo/personal-site">here</a>.</p>
+      <p> Source available <a href="https://github.com/SADID-ai/webapp">here</a>.</p>
     </article>
   </Main>
 );

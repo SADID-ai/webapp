@@ -4,12 +4,12 @@
 const skills = [
   {
     title: 'Javascript',
-    competency: 4,
+    competency: 3,
     category: ['Web Development', 'Languages', 'Javascript'],
   },
   {
     title: 'Node.JS',
-    competency: 3,
+    competency: 2,
     category: ['Web Development', 'Javascript'],
   },
   {
@@ -49,7 +49,7 @@ const skills = [
   },
   {
     title: 'Redis',
-    competency: 3,
+    competency: 2,
     category: ['Web Development', 'Databases'],
   },
   {
@@ -58,9 +58,9 @@ const skills = [
     category: ['Data Science'],
   },
   {
-    title: 'Express.JS',
-    competency: 2,
-    category: ['Web Development', 'Javascript'],
+    title: 'Mathematical Modeling',
+    competency: 5,
+    category: ['Data Science'],
   },
   {
     title: 'D3',
@@ -73,8 +73,8 @@ const skills = [
     category: ['Web Development', 'Python'],
   },
   {
-    title: 'Git/Mercurial',
-    competency: 3,
+    title: 'Git',
+    competency: 5,
     category: ['Tools'],
   },
   {
@@ -129,12 +129,12 @@ const skills = [
   },
   {
     title: 'Julia',
-    competency: 2,
+    competency: 1,
     category: ['Languages'],
   },
   {
     title: 'MATLAB',
-    competency: 2,
+    competency: 1,
     category: ['Languages'],
   },
   {
@@ -144,7 +144,7 @@ const skills = [
   },
   {
     title: 'Data Visualization',
-    competency: 3,
+    competency: 5,
     category: ['Data Science', 'Javascript'],
   },
   {

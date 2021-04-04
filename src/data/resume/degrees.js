@@ -1,15 +1,21 @@
 const degrees = [
   {
-    school: 'Stanford University',
-    degree: 'M.S. Computational and Mathematical Engineering',
-    link: 'https://stanford.edu',
-    year: 2016,
+    school: 'To validate the social & economic impact of the project',
+    degree: 'Project Goals',
+    link: '',
+    year: '',
   },
   {
-    school: 'University at Buffalo',
-    degree: 'B.S. Electrical Engineering, Computer Engineering',
-    link: 'https://buffalo.edu',
-    year: 2012,
+    school: 'To measure social & economic impact',
+    degree: 'Statment of need',
+    link: '',
+    year: '',
+  },
+  {
+    school: 'To validate the Rationality & Feasiblility of the project',
+    degree: 'Project needs',
+    link: '',
+    year: '',
   },
 ];
 

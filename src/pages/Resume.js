@@ -15,22 +15,22 @@ import positions from '../data/resume/positions';
 import { skills, categories } from '../data/resume/skills';
 
 const sections = [
-  'Education',
-  'Experience',
-  'Skills',
-  'Courses',
-  'References',
+  'Scope',
+  'Analyse',
+  'Collaborate',
+  'Partner',
+  'Impact',
 ];
 
 const Resume = () => (
   <Main
-    title="Resume"
+    title="Aprroach"
     description="Michael D'Angelo's Resume. Arthena, Matroid, YC, Skeptical Investments, Stanford ICME, Planet Labs, and Facebook."
   >
     <article className="post" id="resume">
       <header>
         <div className="title">
-          <h2 data-testid="heading"><Link to="resume">Resume</Link></h2>
+          <h2 data-testid="heading"><Link to="resume">Aprroach</Link></h2>
           <div className="link-container">
             {sections.map((sec) => (
               <h4 key={sec}>

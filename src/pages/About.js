@@ -7,7 +7,7 @@ import Main from '../layouts/Main';
 
 // uses babel to load contents of file
 const markdown = raw('../data/about.md');
-
+const { PUBLIC_URL } = process.env;
 const count = markdown.split(/\s+/)
   .map((s) => s.replace(/\W/g, ''))
   .filter((s) => s.length).length;
@@ -34,6 +34,9 @@ const About = () => (
         }}
         escapeHtml={false}
       />
+      <Link to="/" className="logo">
+        <img src={`${PUBLIC_URL}/images/Good.png`} alt="" width="1000" height="550" />
+      </Link>
     </article>
   </Main>
 );
